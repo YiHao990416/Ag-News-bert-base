@@ -129,7 +129,7 @@ loss_function=torch.nn.CrossEntropyLoss().to(device)
 optimizer=torch.optim.AdamW(params=model.parameters(),lr=2e-5)   #Modify to optimize the training 
 total_training_samples=len(dataset_train)
 total_testing_samples=len(dataset_test)
-epochs= 2                                                        #Modify to optimize the training 
+epochs= 1                                                        #Modify to optimize the training 
 
 print("------------------------Training initialized-------------------------------")
 
